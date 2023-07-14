@@ -1,0 +1,316 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans', sans-serif;
+    border: border-box;
+    
+}
+
+.left{
+    display: flex;
+}
+.nav{
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    width: 100vw;
+    gap: 1.5rem;
+    overflow: hidden;
+}
+.nav-logo{
+    height: 50px;
+    width: 100px;
+}
+.logo{
+    background-image: url("images/amazon_logo.png");
+    background-size: cover;
+    height: 50px;
+    width: 100%;
+}
+.border{
+    border:2px solid transparent;
+}
+.border:hover{
+    border:1.5px solid white
+}
+
+
+.add-first{
+    color: #cccccc;
+    font-size: 0.8rem;
+    margin-left: 8px;
+}
+.add-icon{
+    display: flex;
+}
+.add-second{
+    margin-left: 3px;
+}
+
+
+.nav-search{
+    display: flex;
+}
+.searchbar{
+    padding: 10px;
+    width: 75%;
+    
+}
+.nav-middle{
+    width: 55%;
+}
+
+.search-select{
+    background-color: #dadada;
+    color: #0f1111;
+    width: 240px;
+}
+.search-icon{
+    text-align: center;
+    width: 2.5rem;
+    background-color:#55dae8 ;
+    transition: all 0.5s ease;
+}
+.search-icon i{
+    height: 100%;
+    width: 100%;
+    font-size: 14px;
+    padding: 0;
+    margin-top: 1.2rem;
+    color: black;
+    cursor: pointer;
+    border: none;
+    line-height: 1px;
+}
+.search-icon:hover{
+    background-color: #1a98ff;
+}
+.content{
+    width: 100vw;
+    height: 100vh;
+    overflow: auto;
+    display: flex;
+    gap: 0.5rem;
+}
+.lang{
+    display: flex;
+    gap: 0.3rem;
+    padding: 10px;
+}
+
+
+.right{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.sign-in{
+    display: flex;
+}
+
+.big{
+    font-size: 10px;
+    font-weight: bold;
+}
+.small{
+    font-size: 8px;
+}
+
+.down{
+    background-color: #232f3e;
+    color: white;
+    font-size: 0.8rem;
+    height: 2rem;
+    overflow: hidden;
+}
+.down ul{
+    display: flex;
+    place-items: center;
+    list-style-type: none;
+    gap: 1.5rem;
+    margin-left: 1rem;
+    
+}
+.down ul li{
+    align-self: center;
+    padding: 0.2rem;
+}
+.content{
+    margin-top:0.8rem
+}
+.sidebar{
+    padding-left: 0.8rem;
+    height: 100vh;
+    padding-top: 1rem;
+}
+.sidebar ul{
+    font-size: 0.55rem;
+    list-style-type: none;
+    padding-left: 0.8rem;
+    line-height: 0.8rem;
+}
+.sidebar .head{
+    font-size: 0.7rem;
+    font-weight: bold;
+}
+.sidebar .below{
+    position: relative;
+    bottom: -1rem;
+}
+.sidebar .pad{
+    margin-left: 1rem;
+}
+.below .he{
+    padding-bottom: 0.7rem;
+}
+.line{
+    height: 75vh;
+    width: .08rem;
+    background-color: #dddddd;
+}
+.top-img{
+    padding-left: 2rem;
+}
+.top-img img{
+    width: 63rem;
+}
+.img-tech{
+    display: flex;
+    gap: 1rem;
+    padding-left: 2rem;
+}
+.tech{
+    text-align: center;
+}
+
+.tech-cont img{
+    width: 230px;
+}
+
+.head-cont{
+    margin:1.2rem 0 0.6rem 0;
+}
+
+
+.toys-best{
+    display: flex;
+    gap: 2.5rem;
+    padding-left: 1.5rem;
+}
+.toys-best h5{
+    font-size:0.8rem
+
+}
+.headun{
+    font-size:0.8rem;
+    font-weight: bold;
+}
+.cut-toy{
+    text-decoration:line-through;
+    opacity: 0.7;
+    font-size: 0.8rem;
+}
+.cmp-toy{
+    opacity: 0.7;
+}
+.img-toy{
+    height: 200px;
+}
+
+.head-green{
+    background-color: #78dcd0;
+    color: #272e41;
+    text-align: center;
+    font-size: 1rem;
+    font-weight:1500;
+    padding: 1rem 0;
+    margin-top: 2rem;
+    margin-right: 1rem;
+}
+
+.homekit{
+    text-align: center;
+}
+
+.table{
+    display: flex;
+    gap: 1.25rem;
+}
+
+.settable img{
+    width: 240px;
+}
+
+.decor{
+    display: flex;
+    gap: 2rem;
+    margin-top: 1.5rem;
+}
+.kitchenmeal{
+    display: flex;
+    gap: 1.5rem;
+    margin-top: 2rem;
+}
+.kittmeal{
+    text-align: center;
+}
+.meal img{
+    width: 240px;
+}
+.top{
+    width: 100vw;
+    height: 1.5rem;
+    text-align: center;
+    background-color: #485769;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.8rem;
+
+    opacity: 0.9;
+}
+.backtotop{
+    text-decoration: none;
+}
+.top:hover{
+    opacity: 1;
+}
+.footer{
+    
+    color: white;
+    background-color: #232f3e;
+    
+    height: 400px;
+}
+.link{
+    display: flex;
+    justify-content: center;
+}
+.bot{
+    margin: 2.5rem 1.5rem;
+}
+.bot h5{
+    font-size: 14px;
+    padding-bottom: 0.6rem;
+}
+.bot p{
+    font-size: 10px;
+    line-height: 1.5rem;
+}
+.bott{
+    display: flex;
+    justify-content: center;
+    font-size: 0.8rem;
+    padding-top: 2rem;
+}
+
+.lang{
+    opacity: 0.8;
+    border: 1px solid white;
+    margin:0 0.8rem;
+}
